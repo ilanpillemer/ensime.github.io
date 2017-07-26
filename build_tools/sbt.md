@@ -145,6 +145,7 @@ Tickets are extremely hard to reproduce unless you create a minimal example proj
 Bug reports in the form of a pull request into the `src/sbt-test/ensime-sbt` directory are well received, which is our suite of integration tests using the [sbt scripted](http://eed3si9n.com/testing-sbt-plugins) framework (its very simple to use). Pull requests with tests and fixes are living the dream.
 
 You can follow snapshot releases by using the following instead of the stable release
+The sbt plugin version number is the same as the latest plugin version described above (as the same sbt plugin is used regardless of whether the release is (un)stable).
 
 ```scala
 // or clone this repo and type `sbt publishLocal`
